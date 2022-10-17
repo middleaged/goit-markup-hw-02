@@ -48,3 +48,16 @@ body {
 .feature-list .text {
   color: var(--secound-text-collor);
 }
+.team .text {
+  color: var(--secound-text-collor);
+}
+.basement {
+  background-color: #2f303a;
+}
+.logo-studio-footer {
+  color: #ffffff;
+}
+.basement-link {
+  text-decoration: none;
+  color: #ffffff;
+}
