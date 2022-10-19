@@ -13,7 +13,7 @@
   --main-background-color: #ffffff;
   --secound-background-color: #2f303a;
   --footer-color-contacts: rgba(255, 255, 255, 0.6);
-  --title-color-hero: #ffffff;
+  --third-color-hero: #ffffff;
   --third-background-color: #f5f4fa;
 }
 body {
@@ -68,7 +68,7 @@ body {
   background-color: var(--secound-background-color);
 }
 .title-hero {
-  color: var(--title-color-hero);
+  color: var(--third-color-hero);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -79,7 +79,7 @@ body {
 .button-hero {
   cursor: pointer;
   background-color: var(--accent);
-  color: var(--title-color-hero);
+  color: var(--third-color-hero);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -99,6 +99,7 @@ body {
   color: var(--secound-text-collor);
   line-height: 1.71;
 }
+/* Проекти */
 .projects-title {
   font-weight: 700;
   font-size: 36px;
@@ -136,10 +137,10 @@ body {
   background-color: var(--secound-background-color);
 }
 .basement .logo-secound-item {
-  color: var(--title-color-hero);
+  color: var(--third-color-hero);
 }
 .adress-item-maps {
-  color: var(--title-color-hero);
+  color: var(--third-color-hero);
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -154,4 +155,32 @@ body {
 .adress-item:hover,
 .adress-item:focus {
   color: var(--accent);
+}
+/* Портфоліо */
+.filters-button {
+  background-color: var(--third-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+.filters-button:hover,
+.filters-button:focus {
+  background-color: var(--accent);
+  color: var(--third-color-hero);
+}
+.portolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.porfolio-text {
+  color: var(--secound-text-collor);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
