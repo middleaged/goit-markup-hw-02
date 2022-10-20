@@ -80,6 +80,7 @@ body {
   cursor: pointer;
   background-color: var(--accent);
   color: var(--third-color-hero);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -90,6 +91,7 @@ body {
 }
 /* Особливості */
 .features-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -136,6 +138,9 @@ body {
 .basement {
   background-color: var(--secound-background-color);
 }
+.address {
+  font-style: normal;
+}
 .basement .logo-secound-item {
   color: var(--third-color-hero);
 }
@@ -159,6 +164,7 @@ body {
 /* Портфоліо */
 .filters-button {
   background-color: var(--third-background-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
